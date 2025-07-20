@@ -7,7 +7,9 @@
 
 <body class="flex items-center justify-center min-h-screen">
 
-    <h1 class="text-center">Hola, este es un demo para Happy Pets</h1>
+    <h1 class="text-center">Hola, este es un demo para Happy Pets<br>
+        Haz click en el chat.
+    </h1>
 
 
     <script type="module">
@@ -67,7 +69,7 @@
                     backgroundImage: 'url("ruta/a/tu/imagen-de-fondo.jpg")',
                     height: 700,
                     width: 400,
-                    fontSize: 16,
+                    fontSize: 13,
                     starterPrompts: [
                         "Qué snack me recomiendas para mi gato?",
                         "Necesito alimento para cachorros",
@@ -85,7 +87,7 @@
                     },
                     userMessage: {
                         backgroundColor: '#4ec0a6', /* Amarillo brillante */
-                        textColor: '#000000', /* Azul oscuro */
+                        textColor: '#FFFFFF', /* Azul oscuro */
                         showAvatar: false,
                         avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
                     },
@@ -99,7 +101,7 @@
                         autoFocus: true,
                         sendMessageSound: true,
                         sendSoundLocation: 'send_message.mp3',
-                        receiveMessageSound: true,
+                        receiveMessageSound: false,
                         receiveSoundLocation: 'receive_message.mp3'
                     },
                     feedback: {
